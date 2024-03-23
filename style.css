@@ -35,7 +35,7 @@ a {
 }
 
 .placeholder {
-    max-height: 275px;
+    max-height: 200px;
     flex: 1;
 }
 
@@ -100,4 +100,24 @@ button {
 .info-header {
     font-size: 36px;
     font-weight: 800;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 256px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-attribution {
+    text-align: end;
+    font-weight: 700;
+    font-size: 18px;
 }
